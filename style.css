@@ -128,7 +128,7 @@ input[type="text"]{
   #cards{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
   }
 }

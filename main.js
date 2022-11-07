@@ -96,7 +96,6 @@ function renderData(data) {
 
           results1.value = localStorage.getItem(`${games.id}-${games.country1}`)
           results2.value = localStorage.getItem(`${games.id}-${games.country2}`)
-          console.log(this)
         })
       });
     }
