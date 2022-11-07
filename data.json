@@ -1,0 +1,70 @@
+{
+    "data":[
+        {
+            "date": "28/11",
+            "day": "segunda-feira",
+            "games": [
+                {
+                    "id" : "0",
+                    "country1": "brazil",
+                    "hour": "13:00",
+                    "country2": "switzerland"
+                },
+                {
+                    "id" : "1",
+                    "country1": "portugal",
+                    "hour": "16:00",
+                    "country2": "uruguay"
+                },
+                {
+                    "id" : "2",
+                    "country1": "brazil",
+                    "hour": "13:00",
+                    "country2": "switzerland"
+                }
+            ]
+        },
+        {
+            "date": "28/11",
+            "day": "segunda-feira",
+            "games": [
+                {       
+                    "id" : "3",
+                    "country1": "portugal",
+                    "hour": "16:00",
+                    "country2": "uruguay"
+                },
+                {
+                    "id" : "4",
+                    "country1": "brazil",
+                    "hour": "13:00",
+                    "country2": "switzerland"
+                }
+            ]
+        },
+        {
+            "date": "28/11",
+            "day": "segunda-feira",
+            "games": [
+                {   
+                    "id" : "5",
+                    "country1": "portugal",               
+                    "hour": "16:00",
+                    "country2": "uruguay"
+                },
+                {
+                    "id" : "6",
+                    "country1": "brazil",
+                    "hour": "13:00",
+                    "country2": "switzerland"
+                },
+                {
+                    "id" : "7",
+                    "country1": "portugal",
+                    "hour": "16:00",
+                    "country2": "uruguay"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body{
+    background-image: linear-gradient(rgb(8, 1, 65), rgb(0, 0, 0));
+}
+
+header{
+    margin-top: 5.3rem;
+    margin-bottom: 6.3rem;
+}
+
+.card-container{
+    background-color: hsla(54, 7%, 10%, 1);
+    margin-bottom: 3.2rem;
+    width: fit-content;
+    margin: 3.2rem auto;
+    border-radius: 0.6rem;
+    border-bottom: 2px solid #F7DD43;
+    padding: 0 2.3rem;
+}
+
+.card-container .card{
+    margin: 0;
+    background-color: hsla(54, 7%, 10%, 1);
+    width: 17.7rem;
+    height: 4.6rem;
+    gap:1.6rem;
+    margin-bottom: 5.3rem;
+    margin-top: 3.2rem;
+}
+
+.card-container .card p{
+    margin: 0;
+}
+
+p.date{
+    color: hsla(51, 92%, 62%, 1);
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+p{
+    color: white;
+    font-weight: 700;
+    size: 1.4rem;
+    line-height: 125%;
+}
+
+ul li{
+    display: flex;
+    gap: 3.75rem;
+    margin-bottom: 4.9rem;
+    border-bottom: 0.1rem solid rgba(136, 136, 136, 0.226);
+    padding-bottom: 2.4rem;
+}
+
+ul li p{
+    margin: auto;
+    font-size: 3.6rem;
+}
+
+.card-container ul li:hover {
+  transform: scale(1.1);
+}
+
+.card-container ul li {
+  transition: transform 0.3s;
+}
+
+.card-container {
+  opacity: 0;
+  animation: appear 0.2s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.results{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 7rem;
+}
+
+.results p{
+  margin: auto;
+  font-size: 6rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+  background-color: #F7DD43;
+  border-radius: 0.8rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+input[type="text"]{
+  font-size: 5.5rem;
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+::placeholder{
+  color: white;
+  opacity: 0.3;
+}
+
+
+@media (min-width: 1024px) {
+  #cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
